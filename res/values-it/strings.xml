@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="warn">Il telefono verrà spento.</string>
+    <string name="descr" tools:ignore="TypographyEllipsis">Spegnimento...</string>
+    
+    
+    <!-- Button to turn off the phone, within the Phone Options dialog -->
+    <string name="power_off">Spegni</string>
+	<!-- Spoken description for ringer silent option. [CHAR LIMIT=NONE] -->
+    <string name="silent_mode_silent">Silenzioso</string>
+    <!-- Spoken description for ringer vibrate option. [CHAR LIMIT=NONE] -->
+    <string name="silent_mode_vibrate">Vibrazione</string>
+    <!-- Spoken description for ringer normal option. [CHAR LIMIT=NONE] -->
+    <string name="silent_mode_ring">Suoneria</string>
+    
+    <string name="hi">Arrivederci!</string>
+    <string name="cred">App creata da DAVIDE MAG.</string>
+    
+    <string name="perm">Questo permesso è necessario per bloccare lo schermo.</string>
+    <string name="acc_grant">Permesso di amministratore accettato.</string>
+    <string name="acc_rem">Permesso di amministratore revocato. Adesso puoi disinstallare l\'app</string>
+    
+    <string name="title_ms">Modifica numero millisecondi</string>
+	<string name="curr_val">Valore corrente:</string>
+	<string name="airplane_mode">Modalità aereo</string>
+	<string name="airplane_mode_off">Modalità aereo non attiva</string>
+	<string name="airplane_mode_on">Modalità aereo attiva</string>
+	
+</resources>

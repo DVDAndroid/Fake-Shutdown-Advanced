@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:longClickable="true"
+	android:clickable="true"
+	android:layout_width="930px"
+	android:layout_height="205px"
+	android:orientation="horizontal"
+	android:paddingStart="8.0dip"
+	android:id="@+id/linearlayout"
+	android:paddingBottom="6.0dip"
+	android:paddingTop="6.0dip"
+	tools:ignore="PxUsage,RtlSymmetry" >
+         
+	<ImageView
+		android:id="@+id/pow_icon"
+		android:layout_width="56.0dip"
+		android:layout_height="56.0dip"
+		android:layout_gravity="center"
+		android:layout_marginEnd="8.0dip"
+		android:scaleType="center"
+		android:src="@drawable/ic_launcher"
+		tools:ignore="ContentDescription" />
+		
+	<TextView
+		android:textColor="@android:color/black"
+        android:id="@+id/off"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:background="@android:color/transparent"
+		android:elegantTextHeight="false"
+		android:gravity="left|center_vertical"
+		android:text="@string/power_off"
+		android:textAllCaps="false"
+		android:textSize="22sp"
+		android:textStyle="normal"
+		android:typeface="normal"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		tools:ignore="UnusedAttribute,RtlHardcoded,SpUsage" />
+
+</LinearLayout>
