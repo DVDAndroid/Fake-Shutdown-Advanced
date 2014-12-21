@@ -1,6 +1,0 @@
-<resources>
-
-    <style name="Theme" parent="android:Theme.DeviceDefault"/>
-	<style name="Dialog" parent="android:Theme.DeviceDefault.Dialog.NoActionBar"/>
-
-</resources>
